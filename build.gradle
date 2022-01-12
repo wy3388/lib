@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+apply from:"config.gradle"
+
+group 'com.github'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$cfg.junit_version"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$cfg.junit_version"
+    implementation "org.jsoup:jsoup:$cfg.jsoup_version"
+    implementation "com.squareup.okhttp3:okhttp:$cfg.okhttp3_version"
+}
+
+test {
+    useJUnitPlatform()
+}
