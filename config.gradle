@@ -1,7 +1,0 @@
-ext {
-    cfg = [
-            junit_version: '5.8.2',
-            jsoup_version: '1.14.3',
-            okhttp3_version: '4.9.3'
-    ]
-}
