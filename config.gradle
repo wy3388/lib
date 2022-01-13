@@ -1,0 +1,7 @@
+ext {
+    cfg = [
+            "junit_version" : "5.8.2",
+            "jsoup_version" : "1.14.3",
+            "lombok_version": "1.18.22"
+    ]
+}
