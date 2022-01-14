@@ -17,6 +17,7 @@ dependencies {
     implementation "org.jsoup:jsoup:$cfg.jsoup_version"
     compileOnly "org.projectlombok:lombok:$cfg.lombok_version"
     annotationProcessor "org.projectlombok:lombok:$cfg.lombok_version"
+    implementation "com.squareup.okhttp3:okhttp:$cfg.okhttp3_version"
 }
 
 test {

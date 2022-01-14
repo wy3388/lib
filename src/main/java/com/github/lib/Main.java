@@ -6,4 +6,7 @@ package com.github.lib;
  * @author wy
  */
 public class Main {
+    public static void main(String[] args) {
+
+    }
 }
